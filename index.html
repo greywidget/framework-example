@@ -3,21 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Local CSS-->
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Document</title>
+
+    <title>Margaret Glaspy Live</title>
 </head>
-<body>
-    <header>
-        <h1>Bootstrap Example</h1>
-    </header>
-    <main>
-        <p>Install boostrap on this page</p>
-    </main>
-    <aside>
-        <p>Sidebar Content</p>
-    </aside>
+<body class="bg-dark">
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-info" href="#">Margaret Glaspy</a>
+        </div>
+    </nav>>
+
+    <!-- Main Container -->
+    <div class="container" bg-dark>
+
+      <!-- Hero Carousel -->
+      <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/margaret_and julian.jpg" 
+            class="d-block w-100" alt="Margaret Glaspy and Julian Lage in the studio">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/margaret_rockgarden.jpg" 
+            class="d-block w-100" alt="Margaret Glaspy at Rock the Garden 2017">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/margaret_rockwood.jpg" 
+            class="d-block w-100" alt="Margaret Glaspy live at Rockwood Music Hall">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselHero" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselHero" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+
+      <!-- Main Content -->
+      <div class="row mt-5">
+
+        <!-- Left Sidebar for tour dates -->
+        <div class="col-md-4 text-info">
+          <h2 class="bg-dark">Tour Dates</h2>
+          <ul class="list-group">
+            <li class="list-group-item bg-dark $teal"><strong>Sat, 25th April 2020 </strong>
+              <a href="#" class="text-muted">The Wig and Whippet</a> Oxenhope, UK</li>
+            <li class="list-group-item bg-dark">Dapibus ac facilisis in</li>
+            <li class="list-group-item bg-dark">Morbi leo risus</li>
+            <li class="list-group-item bg-dark">Porta ac consectetur ac</li>
+            <li class="list-group-item bg-dark">Vestibulum at eros</li>
+          </ul>
+        </div>
+
+        <!-- Right Side Video -->
+        <div class="col-md-8 d-flex justify-content-end">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" 
+                width="560" height="315"
+                src="https://www.youtube.com/embed/k5rB1d0uEMA?rel=0" allowfullscreen></iframe>
+              </div>
+        </div>
+      </div>
+
+
+    </div>
     <footer>
         <p>&copy; 2020</p>
     </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </body>
 </html>
