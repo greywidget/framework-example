@@ -10,79 +10,108 @@
     <!-- Local CSS-->
     <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <title>Margaret Glaspy Live</title>
+    <title>Margaret Glaspy</title>
 </head>
-<body class="bg-dark">
-    <!-- Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+<body class="bg-dark text-info">
+  
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Header and Nav Bar-->
+    <div class="row">
+      <div class="col md-8">
+        <h1>Margaret Glaspy</h1>
+      </div>
+
+      <div class="col md-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
             <a class="navbar-brand text-info" href="#">Margaret Glaspy</a>
-        </div>
-    </nav>>
-
-    <!-- Main Container -->
-    <div class="container" bg-dark>
-
-      <!-- Hero Carousel -->
-      <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/margaret_and julian.jpg" 
-            class="d-block w-100" alt="Margaret Glaspy and Julian Lage in the studio">
           </div>
-          <div class="carousel-item">
-            <img src="assets/margaret_rockgarden.jpg" 
-            class="d-block w-100" alt="Margaret Glaspy at Rock the Garden 2017">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/margaret_rockwood.jpg" 
-            class="d-block w-100" alt="Margaret Glaspy live at Rockwood Music Hall">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselHero" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselHero" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
+        </nav>
       </div>
+    </div>
 
-      <!-- Main Content -->
-      <div class="row mt-5">
-
-        <!-- Left Sidebar for tour dates -->
-        <div class="col-md-4 text-info">
-          <h2 class="bg-dark">Tour Dates</h2>
-          <ul class="list-group">
-            <li class="list-group-item bg-dark $teal"><strong>Sat, 25th April 2020 </strong>
-              <a href="#" class="text-muted">The Wig and Whippet</a> Oxenhope, UK</li>
-            <li class="list-group-item bg-dark">Dapibus ac facilisis in</li>
-            <li class="list-group-item bg-dark">Morbi leo risus</li>
-            <li class="list-group-item bg-dark">Porta ac consectetur ac</li>
-            <li class="list-group-item bg-dark">Vestibulum at eros</li>
-          </ul>
+    <!-- Hero Carousel -->
+    <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/margaret_and julian.jpg" 
+          class="d-block w-100" alt="Margaret Glaspy and Julian Lage in the studio">
         </div>
-
-        <!-- Right Side Video -->
-        <div class="col-md-8 d-flex justify-content-end">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" 
-                width="560" height="315"
-                src="https://www.youtube.com/embed/k5rB1d0uEMA?rel=0" allowfullscreen></iframe>
-              </div>
+        <div class="carousel-item">
+          <img src="assets/margaret_rockgarden.jpg" 
+          class="d-block w-100" alt="Margaret Glaspy at Rock the Garden 2017">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/margaret_rockwood.jpg" 
+          class="d-block w-100" alt="Margaret Glaspy live at Rockwood Music Hall">
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselHero" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselHero" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
 
+    <!-- Main Content -->
+    <div class="row mt-5">
+    
+      <!-- Main Left Sidebar for tour dates -->
+      <div class="col-md-3">
+        <h2 class="text-light">Tour Dates</h2>
+        <ul class="list-group">
+          <li class="list-group-item bg-dark"><em>Sat, 7th March 2021 </em>
+            <a href="#" class="text-light">The Slaughtered Lamb</a> Yorkshire
+          </li>
+          <li class="list-group-item bg-dark"><em>Fri, 13th March 2021 </em>
+            <a href="#" class="text-light">Bob's Country Bunker</a> Kokomo
+          </li>
+          <li class="list-group-item bg-dark"><em>Sat, 21st March 2021 </em>
+            <a href="#" class="text-light">The Winchester</a> Crouch End
+          </li>
+          <li class="list-group-item bg-dark"><em>Sat, 28st March 2021 </em>
+            <a href="#" class="text-light">Overlook Hotel</a> Colorado Rockies
+          </li>
+          <li class="list-group-item bg-dark"><em>Fri, 3rd April 2021 </em>
+            <a href="#" class="text-light">The Prancing Pony</a> Bree
+          </li>
+          <li class="list-group-item bg-dark"><em>Sat, 4th April 2021 </em>
+            <a href="#" class="text-light">Jack Rabbit Slim's</a> California
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Main Right Side, Band Info and Video -->
+      <div class="col-md-9">
+        <h2 class="text-light">About the band</h2>
+        <p class="px-2">Margaret Glaspy is an American singer-songwriter from
+          Sacremento California. Her first EP <em>HomeSchool</em> was released
+          in 2012. She signed to ATO records in 2015 and released <em>You 
+          and I</em> and <em>Somebody to Anybody</em> which were later included 
+          in her 2016 album <em>Emotions and Math</em> In March 2020 she
+          released her second full-length album <em>Devotion</em>.</p>
+      
+        <div class="ratio ratio-16x9">
+          <iframe title="YouTube video of Margaret Glaspy live at Coffey Park"
+            src="https://www.youtube.com/embed/k5rB1d0uEMA?rel=0" allowfullscreen></iframe>
+        </div>
+      </div>
 
     </div>
-    <footer>
-        <p>&copy; 2020</p>
+
+    <footer class="fs-6 text-info">
+        <p>&copy; 2021</p>
     </footer>
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </body>
 </html>
