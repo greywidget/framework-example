@@ -4,3 +4,7 @@ footer{
     padding: 1rem;
     text-align: center;
 }
+
+button {
+    background-color: #36454f !important;
+}
